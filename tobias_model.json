@@ -1,16 +1,15 @@
 {
   "type": "micro",
-  "wake_word": "Tobias",
-  "author": "Você",
-  "website": "",
+  "wake_word": "tobias",
+  "author": "Rfael Santos",
+  "website": "https://www.sempagina.com/",
   "model": "tobias_model.tflite",
-  "trained_languages": ["pt"],
   "version": 2,
-   "micro": {
-      "probability_cutoff": 0.85,
-      "feature_step_size": 10,
-      "sliding_window_size": 5,
-      "tensor_arena_size": 37000,
-      "minimum_esphome_version": "2024.7.0"
-      }
+  "micro": {
+    "probability_cutoff": 0.85,
+    "sliding_window_size": 10,
+    "feature_step_size": 5,
+    "tensor_arena_size": 37000,
+    "minimum_esphome_version": "2024.7"
+  }
 }
